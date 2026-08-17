@@ -46,7 +46,7 @@
 <body>
 
 <header>
-    <h1>🚀 DevOps new batch will strat on sep 28 6:45 AM 12082026 Updated Webhook-u 🚀</h1>
+    <h1>🚀 DevOps new batch will strat on sep 28 6:45 AM 12082026 Updated - Pool SCM 🚀</h1>
     <h3>Training | Development | Consulting</h3>
 </header>
 
