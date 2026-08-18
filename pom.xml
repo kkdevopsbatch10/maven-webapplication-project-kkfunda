@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>KK FUNDA Releases Nexus Repository</name>
-	      <url>http://174.129.172.192:8081/repository/java-release/</url>
+	      <url>http://35.170.192.197:8081/repository/java-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>KK FUNDA Snapshot Nexus Repository </name>
-	      <url>http://174.129.172.192:8081/repository/java-snapshot/</url>
+	      <url>http://35.170.192.197:8081/repository/java-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
