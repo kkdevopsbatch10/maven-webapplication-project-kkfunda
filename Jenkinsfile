@@ -32,7 +32,7 @@ pipeline
     {
      steps 
 	 {
-	  sh "mvn soanr:sonar"
+	  sh "mvn sonar:sonar"
 	 }
     }
 	stage ('Nexus Report')
