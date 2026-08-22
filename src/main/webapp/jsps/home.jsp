@@ -46,7 +46,7 @@
 <body>
 
 <header>
-    <h1>🚀 DevOps new batch will strat on sep 28 6:45 AM  🚀</h1>
+    <h1>🚀 DevOps new batch will strat on sep 28 6:45 AM - Just now updated the war file location 🚀</h1>
     <h3>Training | Development | Consulting</h3>
 </header>
 
