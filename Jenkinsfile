@@ -14,9 +14,8 @@ pipeline
                 script {
                     // Overwrites the default build number (#45) in the left-hand sidebar history
                     currentBuild.displayName = "#${env.BUILD_NUMBER}"
-
-                    }
-            }
+                       }
+                  }
         }
      stage ('Git Checkout')
 	  {
@@ -70,3 +69,4 @@ pipeline
 	  }
    }//stage ending
 }//pipeline ending 
+}
