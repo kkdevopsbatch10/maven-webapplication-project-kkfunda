@@ -13,7 +13,7 @@ pipeline
             steps {
                 script {
                     // Overwrites the default build number (#45) in the left-hand sidebar history
-                    currentBuild.displayName = "${env.BUILD_NUMBER}"
+                    currentBuild.displayName = "#${env.BUILD_NUMBER}"
 
                     // Sets the summary text on the specific build overview page
                     currentBuild.description = "Target: ${params.TARGET_ENV} | View Build Details: ${env.BUILD_URL}"
