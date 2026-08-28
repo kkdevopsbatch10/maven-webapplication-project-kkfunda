@@ -9,7 +9,7 @@ pipeline {
         stage('Set Build Identity') {
             steps {
                 script {
-                    currentBuild.displayName = "#${env.BUILD_NUMBER}"
+                    currentBuild.displayName =  "AXA-${env.BUILD_NUMBER}"
                 }
             }
         }
