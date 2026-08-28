@@ -10,6 +10,7 @@ pipeline {
             steps {
                 script {
                     currentBuild.displayName =  "AXA-${env.BUILD_NUMBER}"
+                    currentBuild.description = "Automated AXA Build for ${env.JOB_NAME} - Run #${env.BUILD_NUMBER}"
                 }
             }
         }
