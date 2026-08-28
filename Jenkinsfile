@@ -7,6 +7,28 @@ pipeline
   }
   stages 
    {
+    parameters {
+        string(name: 'RELEASE_VERSION', defaultValue: '1.2.0', description: 'The version number being built.')
+        choice(name: 'TARGET_ENV', choices: ['Staging', 'Production'], description: 'Deployment target.')
+    }
+
+    environment {
+        APP_NAME = 'Microservice-Auth'
+    }
+
+    stages {
+        // New Dedicated Metadata Stage
+        stage('Set Build Identity') {
+            steps {
+                script {
+                    // Overwrites the default build number (#45) in the left-hand sidebar history
+                    currentBuild.displayName = "${env.APP_NAME} #${env.BUILD_NUMBER} [v${params.RELEASE_VERSION}]"
+
+                    // Sets the summary text on the specific build overview page
+                    currentBuild.description = "Target: ${params.TARGET_ENV} | View Build Details: ${env.BUILD_URL}"
+                }
+            }
+        }
      stage ('Git Checkout')
 	  {
 	   steps
