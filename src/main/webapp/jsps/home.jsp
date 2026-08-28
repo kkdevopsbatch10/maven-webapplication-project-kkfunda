@@ -46,7 +46,7 @@
 <body>
 
 <header>
-    <h1>🚀 DevOps new batch will strat on sep 28 6:45 AM - Scripted way PL 🚀</h1>
+    <h1>🚀 DevOps new batch will strat on sep 28 6:45 AM - 2808206 DWPL 🚀</h1>
     <h3>Training | Development | Consulting</h3>
 </header>
 
